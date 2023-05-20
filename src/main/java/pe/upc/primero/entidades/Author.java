@@ -54,4 +54,14 @@ public class Author {
     public void setEmailAuthor(String emailAuthor) {
         this.emailAuthor = emailAuthor;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "id=" + id +
+                ", nameAuthor='" + nameAuthor + '\'' +
+                ", birthDateAuthor=" + birthDateAuthor +
+                ", emailAuthor='" + emailAuthor + '\'' +
+                '}';
+    }
 }
